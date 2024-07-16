@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+
+/* this is the navigation section */
+
+.section1{
+    width: 100%;
+    background-color: #391847 ;
+    display: flex;
+    border-bottom: 1px solid goldenrod;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 2; 
+    justify-content: center;
+    padding: 1.5% 5%;
+    text-align: center;
+    /* height: 5rem; */
+}
+
+.logo{
+   
+    margin-left: -10rem;
+}
+
+
+
+.wrapper{
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 13rem;
+}
+
+
+
+li{
+    display: inline;
+
+}
+li a{
+    text-decoration: none;
+    opacity: 0.8;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    border-right: 1px solid gold;
+    padding: 8px 10px;
+    
+}
+
+li a:hover{
+    color: goldenrod;
+}
+
+.firstButton{
+    width: 7rem;
+    border-radius: 3rem;
+    height: 2rem;
+    margin-top: -0.5rem;
+    margin-left: 10px;
+    border: none;
+    background-color: goldenrod;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+
+.firstButton:hover{
+    background-color: #5e3072;
+    color: goldenrod;
+}
+
+
+
+/* this is for the section (the parent and image) */
+
+.section2{
+    margin-top: 6.2rem;
+    background-color: #391847;
+}
+
+.img2{
+    width: 30rem;
+    height: 27rem;
+    opacity: 0.8;
+    border-radius: 90px;
+    border-top: 10px solid gold;
+    border-bottom: 10px solid gold;
+    border-right: 10px solid gold;
+   
+}
+.row1 {
+    display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+     padding: 2% 0% ;
+    
+}
+.card-contact1 {
+    padding: 0rem;
+    height: 29rem;
+    width: 50rem;
+    /* background-color: blue; */
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.card-contact2 {
+    height: 29rem;
+    width: 31rem;
+     /* background-color: black; */
+}
+
+.section2 p{
+    color: gold;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    opacity: 0.8;
+
+}
+
+ /* this is the form   */
+
+
+.row {
+    display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     padding: 0.1rem;
+}
+.card-contact {
+    padding: 20px 10px;
+    height: 25rem;
+    width: 35rem;
+    margin: 20px 12px;
+ 
+}
+
+/* this is the form */
+.forForm {background-color: transparent;}
+
+form h1{
+    text-transform: uppercase;
+    margin: 10px 0 10px 10px;
+    font-weight: bolder;
+}
+
+form input{
+    margin: 10px ;
+    padding: 0.1rem;
+    width: 45%;
+    border-radius:5px ;
+    border: 1px solid rgb(85, 84, 84);
+    height: 25px;
+}
+
+select{
+    width: 96%;
+    padding: 0.0rem;
+    margin-left:10px ;
+    margin-bottom: 10px;
+    border-radius:5px ;
+    border: 1px solid rgb(85, 84, 84);
+    height: 25px;
+    color: gray;
+}
+
+
+textarea{
+    width: 95%;
+    padding: 0.2rem;
+    height: 7rem;
+    margin-left:10px ;
+    border-radius:5px ;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.check{
+    margin: 10px 0 10px 10px;
+}
+
+.card-contact button{
+    width: 15rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border-radius:30px ;
+    border: none;
+    background-color: #391847;
+    opacity: 0.8;
+    text-transform: uppercase;
+    color: white;
+}
+.card-contact button:hover {
+    color: black;
+    background-color: gold;
+    opacity: 0.9;
+
+}
+
+/* this is for the aside */
+
+
+.first h1{
+    text-transform: uppercase;
+    margin: 10px 0 10px 10px;
+    font-weight: bolder;
+}
+
+.first p{
+    text-transform: capitalize;
+    margin: 10px 0 10px 12px;
+    
+}
+.first p a {
+    font-weight: bolder;
+}
+.card {
+    padding: 8px 10px;
+    height: 17rem;
+    
+    width: 25rem;
+    margin: 1.5rem 0;
+    border: 1px solid rgb(58, 57, 57, 0.7);
+    /* border-right: 1px solid gold; */
+   background-color: rgb(226, 226, 226, 0.4);
+}
+
+.card b {
+    opacity: 0.8;
+    font-size: small;
+}
+.row2 {
+    display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     /* padding: 0.1rem; */ 
+     background-color: whitesmoke;
+     /* border: 2px solid blue; */
+     /* background-color: #391847; */
+
+}
+.card2 {
+    padding: 8px 10px;
+    height: 17rem;
+    
+    width: 25rem;
+    margin: 1.5rem 0;
+    /* border: 1px solid rgb(58, 57, 57, 0.7); */
+    /* border-right: 1px solid gold; */
+   background-color: transparent;
+}
+.card2 b {
+    opacity: 0.8;
+   text-transform: uppercase;
+   font-size: small;
+}
+.card2 .in{
+    text-align: center;
+    align-content: center;
+}
